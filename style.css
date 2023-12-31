@@ -6,27 +6,28 @@
 .nav {
     background-color: rgb(245, 127, 31);
   }
-  .headerbacground {
+.headerbacground {
     background-image: url(./Asset/sharif\ bgg.jpg);
+    background-size: cover;
   }
-  .banner {
+.banner {
     background-image: url(./Asset/mBanner.png);
     background-size: cover;
   }
-  .banner2 {
+.banner2 {
     background-image: url(./Asset/mbanner-2.png);
     background-size: cover;
   }
-  .img {
+.img {
     background-image: url(./Asset/mMohammad\ Shohag\ Smj.jpg);
     background-size: cover;
   }
-  .Nadia {
+.Nadia {
     background-image: url(./Asset/mnadia\ Taxmin.jpg);
     background-size: cover;
   }
 
-  .Rifat {
+.Rifat {
     background-image: url(./Asset/mrifat\ ahmed.jpg);
     background-size: cover;
   } 
