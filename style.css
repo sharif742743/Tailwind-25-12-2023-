@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+.nav {
+    background-color: rgb(243, 129, 35);
+  }
+  .headerbacground {
+    background-image: url(./Asset/headbgimg.jpg);
+  }
+  .banner {
+    background-image: url(./Asset/Banner.png);
+    background-size: cover;
+  }
+  .banner2 {
+    background-image: url(./Asset/banner-2.png);
+    background-size: cover;
+  }
+  .img {
+    background-image: url(./Asset/Mohammad\ Shohag\ Smj.jpg);
+    background-size: cover;
+  }
+  .Nadia {
+    background-image: url(./Asset//nadia\ Taxmin.jpg);
+    background-size: cover;
+  }
+
+  .Rifat {
+    background-image: url(./Asset/rifat\ ahmed.jpg);
+    background-size: cover;
+  } 
