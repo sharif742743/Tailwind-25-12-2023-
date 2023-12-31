@@ -10,23 +10,23 @@
     background-image: url(./Asset/headbgimg.jpg);
   }
   .banner {
-    background-image: url(./Asset/Banner.png);
+    background-image: url(./Asset/mBanner.png);
     background-size: cover;
   }
   .banner2 {
-    background-image: url(./Asset/banner-2.png);
+    background-image: url(./Asset/mbanner-2.png);
     background-size: cover;
   }
   .img {
-    background-image: url(./Asset/Mohammad\ Shohag\ Smj.jpg);
+    background-image: url(./Asset/mMohammad\ Shohag\ Smj.jpg);
     background-size: cover;
   }
   .Nadia {
-    background-image: url(./Asset//nadia\ Taxmin.jpg);
+    background-image: url(./Asset/m/nadia\ Taxmin.jpg);
     background-size: cover;
   }
 
   .Rifat {
-    background-image: url(./Asset/rifat\ ahmed.jpg);
+    background-image: url(./Asset/mrifat\ ahmed.jpg);
     background-size: cover;
   } 
