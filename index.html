@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>25-12-2023</title>
 
+    <!-- Tailwind css script -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Favicon -->
+
+    <link rel="shortcut icon" href="./Asset/footer-logo-50x56.png" type="image/x-icon">
+
     <!-- Style.css -->
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Style.css">
 
-    <!-- cdn font awesome -->
+    <!-- Cdn fontawesome -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- favicon -->
-
-    <link rel="shortcut icon" href="./Sharif.png" type="image/x-icon">
 
 </head>
 <body >
@@ -83,6 +87,59 @@
     </div>
 
     <!-- Navbar ends here -->
+
+    <!-- Header starts here -->
+
+    <header class="h-auto w-full ">
+
+        <!-- small device header starts here -->
+
+        <div class="headerbacground  h-[800px] w-full md:pl-16">
+            <div class="md:hidden sm:block">
+                <div class="bg-white py-[22px] px-4 flex items-center justify-between ">
+                    <img class="h-[60px] " src="./Asset/logo-1.png" alt="logo">
+                    <div>
+                        <i class="fa-solid fa-bars" style="color: #a8a9ac; font-size: 32px;"></i> 
+                    </div>
+                </div>
+            </div>
+
+            <!-- small device header ends here-->
+
+            <!-- medium to extra large device header starts here -->
+
+            <div class="flex h-auto w-full sm:hidden md:block">
+                <div class="h-auto w-full pl-[26px] py-[26px] flex items-center justify-between ">
+                    <div>
+                        <img class="h-[54px]" src="./Asset/logo-white.png" alt="white logo">
+                    </div>
+                    <ul class="text-white font-bold flex pr-28">
+                        <li class="m-4 border-yellow-500 pb-4 border-b-4   hover:pb-4 hover:border-b-4 hover:border-yellow-500 ">HOME</li>
+                        <li class="m-4 hover:pb-4 hover:border-b-4 hover:border-yellow-500">COURSES</li>
+                        <li class="m-4 hover:pb-4 hover:border-b-4 hover:border-yellow-500">ABOUT STS</li>
+                        <li class="m-4 hover:pb-4 hover:border-b-4 hover:border-yellow-500">IELTS ACHIEVERS</li>
+                        <li class="m-4 hover:pb-4 hover:border-b-4 hover:border-yellow-500">JOB PLACEMENTS</li>
+                        <li class="m-4 hover:pb-4 hover:border-b-4 hover:border-yellow-500">BLOG</li>
+                        <li class="m-4 hover:pb-4 hover:border-b-4 hover:border-yellow-400">CONTACT</li>
+                    </ul>
+                </div>
+            </div>
+            
+
+            <!-- medium to extra large device header starts here -->
+
+            <div class="flex items-center justify-center flex-wrap flex-col md:pt-28 sm:pt-20 leading-none sm:space-y-5">
+                <div class="sm:text-[40px] md:text-[50px] font-bold  text-orange-400">WELCOME TO STS IT</div>
+                <div class="sm:text-[55px] md:text-[70px] font-bold text-white px-12 pb-8 ">WHERE YOUR CAREER IS CREATED </div>
+                <button class="h-auto w-auto px-10 py-3  border-2 border-white rounded-full text-white font-bold text-lg hover:bg-orange-500 ">
+                    Ready to get Started?
+                </button>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Header ends here -->
     
 </body>
-</html
+</html>
